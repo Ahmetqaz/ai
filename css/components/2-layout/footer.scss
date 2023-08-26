@@ -157,9 +157,9 @@
   &__body {
     position: relative;
     overflow: hidden;
-    // background: $black;
-    // border-radius: 15px;
-    // padding: 30px;
+    background: $black;
+    border-radius: 15px;
+    padding: 30px;
     &-bg {
       position: absolute;
       top: 0;
@@ -170,8 +170,15 @@
     }
   }
   .input {
-    input {
-      padding-right: 4em;
+    &--text {
+      input {
+        padding-right: 4em;
+        background: $black;
+        color: $white;
+        &::placeholder {
+          color: rgba($white, 0.6);
+        }
+      }
     }
   }
 }
@@ -309,7 +316,6 @@
     &__body {
       // padding: 15px;
       // border-radius: 10px;
-      
     }
     .input {
       font-size: 14px;

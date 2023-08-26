@@ -1222,6 +1222,9 @@ svg {
 .footer__body {
   position: relative;
   overflow: hidden;
+  background: #000;
+  border-radius: 15px;
+  padding: 30px;
 }
 .footer__body-bg {
   position: absolute;
@@ -1231,8 +1234,25 @@ svg {
   height: 100%;
   pointer-events: none;
 }
-.footer .input input {
+.footer .input--text input {
   padding-right: 4em;
+  background: #000;
+  color: #fff;
+}
+.footer .input--text input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .input--text input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .input--text input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .input--text input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .input--text input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .header {

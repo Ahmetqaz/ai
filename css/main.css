@@ -1222,9 +1222,6 @@ svg {
 .footer__body {
   position: relative;
   overflow: hidden;
-  background: #000;
-  border-radius: 15px;
-  padding: 30px;
 }
 .footer__body-bg {
   position: absolute;
@@ -3183,10 +3180,6 @@ svg {
   .footer__footer-social .guttom {
     color: #1d263a;
     font-size: 22px;
-  }
-  .footer__body {
-    padding: 15px;
-    border-radius: 10px;
   }
   .footer .input {
     font-size: 14px;
